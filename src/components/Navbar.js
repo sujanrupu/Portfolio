@@ -92,6 +92,21 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certification"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Certification
+              </Nav.Link>
+            </Nav.Item>
+
+            
+
           </Nav>
         </Navbar.Collapse>
       </Container>
